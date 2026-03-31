@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from "next";
-import { useFonts } from "./font";
 import "./globals.scss";
+import { useFonts } from "@/utils/fonts.util";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
